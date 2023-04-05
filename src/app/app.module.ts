@@ -59,13 +59,7 @@ import { NavComponent } from './components/nav/nav.component';
     MatTableModule,
     MatIconModule,
     MatListModule,
-    MatCardModule,
-    /*ToastrModule.forRoot({
-      timeOut: 4000,
-      closeButton: true,
-      progressBar: true
-    }),
-    NgxMaskModule.forRoot()*/
+    MatCardModule
   ],
   //providers: [AuthInterceptorProvider],
   bootstrap: [AppComponent]
