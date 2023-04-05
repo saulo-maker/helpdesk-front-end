@@ -29,3 +29,15 @@ img {
    color: white;
    background: #020d3f;
 }
+
+.teste {
+   margin-bottom: 1rem;
+}
+
+.matbar {
+   background-color: #020d3f;
+}
+
+.elementos {
+   direction: left;
+}
