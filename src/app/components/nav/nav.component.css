@@ -1,6 +1,7 @@
 .container {
    height: 100%;
-   background: #e0e0eb;
+   background: #fff;
+   color: #000;
 }
 
 .sidenav {
@@ -19,10 +20,6 @@ img {
    color: white;
   }
   
-.sidenav-content {
-
-}
-
 .sidenav i {
    margin-right: .6rem;
 }
@@ -31,4 +28,16 @@ img {
    margin: 1rem 0 0 1rem;
    color: white;
    background: #020d3f;
+}
+
+.teste {
+   margin-bottom: 1rem;
+}
+
+.matbar {
+   background-color: #020d3f;
+}
+
+.elementos {
+   direction: left;
 }

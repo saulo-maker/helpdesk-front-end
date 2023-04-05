@@ -1,0 +1,13 @@
+.card {
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+}
+img {
+    height: 20rem;
+}
+.fontes {
+    color: #000;
+}

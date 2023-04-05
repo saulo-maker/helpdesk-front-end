@@ -6,29 +6,32 @@
              <i class="material-icons">home</i>
              Home
           </a>
-          <a mat-list-item routerLink="tecnicos">
+          <a mat-list-item routerLink="/">
              <i class="material-icons">account_circle</i>
              Técnicos
           </a>
-          <a mat-list-item routerLink="clientes">
+          <a mat-list-item routerLink="cliente">
              <i class="material-icons">person</i>
              Clientes
           </a>
-          <a mat-list-item routerLink="chamados">
+          <a mat-list-item routerLink="/">
              <i class="material-icons">support</i>
              Chamados
           </a>
-          <a mat-list-item routerLink="chamados">
+          <a mat-list-item class="teste" routerLink="/">
             <i class="material-icons">logout</i>
             Sair
          </a>
        </mat-nav-list>
     </mat-drawer>
  
-    <div class="sidenav-content">
-       <button class="menu mat-elevation-z8" (click)="drawer.toggle()" mat-icon-button>
-          <mat-icon>menu</mat-icon>
-       </button>
+    <div class="sidenav-content"> 
+      <mat-toolbar class="matbar">
+         <button class="menu mat-elevation-z8 teste" (click)="drawer.toggle()" mat-icon-button>
+            <mat-icon>menu</mat-icon>
+        </button>
+        <span>Sistema de Chamados Interno</span>
+      </mat-toolbar>
        <router-outlet></router-outlet>
     </div>
  
