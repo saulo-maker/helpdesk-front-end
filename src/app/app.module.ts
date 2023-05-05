@@ -31,6 +31,7 @@ import { MatCardModule } from '@angular/material/card';
 import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './components/home/home.component';
 import { ClienteComponent } from './components/cliente/cliente.component';
+import { HeaderComponent } from './components/header/header.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { ClienteComponent } from './components/cliente/cliente.component';
     AppComponent,
     NavComponent,
     HomeComponent,
-    ClienteComponent
+    ClienteComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
